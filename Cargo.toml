@@ -1,17 +1,2 @@
-[package]
-name = "codesign"
-version = "0.1.1"
-authors = ["Kjartan F. Kvamme <forbjok@gmail.com>"]
-license = "MIT/Apache-2.0"
-description = "Microsoft code signing library (and utility) for Rust"
-repository = "https://github.com/forbjok/rust-codesign"
-readme = "README.md"
-
-[dependencies]
-bitness = "~0.3.0"
-chrono = "~0.4.0"
-clap = "~2.29.1"
-failure = "~0.1.1"
-fern = "~0.5.2"
-log = "~0.4.1"
-winreg = "~0.5.0"
+[workspace]
+members = ["./bin", "./lib"]
